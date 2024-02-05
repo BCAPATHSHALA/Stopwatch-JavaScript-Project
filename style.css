@@ -94,7 +94,7 @@ body {
   transform: scale(1.2);
 }
 
-@media screen and (with < 425px) {
+@media screen and (width < 426px) {
   .container {
     border: none;
     box-shadow: none;

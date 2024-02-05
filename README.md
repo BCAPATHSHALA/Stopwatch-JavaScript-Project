@@ -17,10 +17,9 @@ A simple JavaScript project that displays the timer in hours, minutes, seconds, 
 
 This project is a simple stopwatch built using JavaScript to practice asynchronous programming with the setInterval and clearInterval Web APIs. The stopwatch includes features such as start, stop, reset, and displays the timer in hours, minutes, seconds, and milliseconds.
 
-
 ## Screenshot
 
-![App Screenshot](https://raw.githubusercontent.com/BCAPATHSHALA/Local-Watch-Javascript-Project/master/LOCAL%20WATCH.png)
+![App Screenshot](https://raw.githubusercontent.com/BCAPATHSHALA/Stopwatch-JavaScript-Project/master/Stopwatch%20Javascript%20Project.png)
 
 ## Features
 
@@ -41,6 +40,7 @@ This project is a simple stopwatch built using JavaScript to practice asynchrono
 - Open the `index.html` file in your web browser.
 
 ## How it Works
+
 The stopwatch leverages the `setInterval` method to update the elapsed time every millisecond. The `clearInterval` method is used to pause the timer. The time is displayed on the interface by manipulating the DOM.
 
 ## Technologies Used

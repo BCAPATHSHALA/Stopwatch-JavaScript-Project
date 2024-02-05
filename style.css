@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  box-shadow: #1d7fef66 0px 0px 0px 2px, #9fa9a3c9 0px 4px 6px -1px,
+    #ffffff 0px 1px 0px inset;
+  border-radius: 10px;
+}
+
+.container h1 {
+  font-size: 2rem;
+  color: #2b2d42;
+}
+
+.container .displayTime {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  box-shadow: #00000029 0px 1px 4px;
+}
+
+.container .displayTime > p {
+  font-weight: 800;
+  text-align: center;
+  width: 100px;
+  font-size: 2rem;
+  color: #01161e;
+}
+.container .displayTime > span {
+  font-weight: 800;
+  font-size: 1.4rem;
+  height: 100%;
+  align-self: center;
+}
+.container .handlingBTN {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  box-shadow: #00000029 0px 1px 4px;
+}
+
+.container .handlingBTN > button {
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+#Pause,
+#Start,
+#Reset {
+  color: #f1faee;
+  border-radius: 4px;
+  transition: all 0.5s ease-in-out;
+}
+
+#Pause {
+  background-color: #023047;
+}
+#Start {
+  background-color: #e63946;
+}
+#Reset {
+  background-color: #43aa8b;
+}
+
+#Pause:hover,
+#Start:hover,
+#Reset:hover {
+  transform: scale(1.2);
+}

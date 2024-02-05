@@ -93,3 +93,10 @@ body {
 #Reset:hover {
   transform: scale(1.2);
 }
+
+@media screen and (with < 425px) {
+  .container {
+    border: none;
+    box-shadow: none;
+  }
+}
